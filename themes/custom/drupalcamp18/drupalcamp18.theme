@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Theme specific functionality.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function drupalcamp18_preprocess_html(&$variables) {
+}

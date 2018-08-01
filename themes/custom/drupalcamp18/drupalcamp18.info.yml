@@ -1,0 +1,25 @@
+name: Drupalcamp 18
+type: theme
+description: 'DrupalCamp 18 Theme'
+# core: 8.x
+base theme: cog
+regions:
+  branding: Branding
+  header: Header
+  pre_content: 'Pre content'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  post_content: 'Post content'
+  footer: Footer
+component-libraries:
+  drupalcamp18:
+    paths:
+    - sass/layout
+    - sass/components
+
+# Information added by Drupal.org packaging script on 2017-09-29
+version: '8.x-1.10'
+core: '8.x'
+project: 'cog'
+datestamp: 1506720858
